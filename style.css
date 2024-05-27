@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.logo > img {
+    width: 120px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
